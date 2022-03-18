@@ -1,0 +1,42 @@
+body {
+    background-color: #ccc;
+}
+
+.search-bar {
+    width: 75vw;
+}
+
+.log-in, .sign-up {
+    border: 1px solid blue;
+    border-radius: 35%;
+    color: blue;
+}
+
+.sort-bar {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.left-side {
+    width: 60vw;
+    height: 300px;
+    border: 1px solid black;
+    margin: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.right-side {
+    width: 25vw;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0.5em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.left-side p {
+    display: inline;
+    margin: 0 2em;
+}

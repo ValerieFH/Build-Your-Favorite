@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Mockup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="assets/reddit-icon-reddit-logo-transparent-115628752708pqmsy4kgm.png" alt="Reddit Logo" width="32" height="32">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="d-flex">
+                <input class="form-control me-2 search-bar" type="search" placeholder="Search Reddit" aria-label="Search">
+                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+              </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link log-in" href="#">Log In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sign-up" href="#">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">🙍‍♂️</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- Trending -->
+    <div class="container-fluid">
+        <div class="row g-3">
+            <div class="col-sm-3">
+                <div class="card bg-dark text-white">
+                    <img src="https://via.placeholder.com/300" class="card-img" alt="placeholder">
+                    <div class="card-img-overlay text-end">
+                    <h5 class="card-title">Arcane</h5>
+                    <p class="card-text">Riot Games Announces New Equity Investment In...</p>
+                    <p class="card-text">r/leagueoflegends</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card bg-dark text-white">
+                    <img src="https://via.placeholder.com/300" class="card-img" alt="placeholder">
+                    <div class="card-img-overlay text-end">
+                    <h5 class="card-title">Toyota Tundra</h5>
+                    <p class="card-text">The all-new Tundra.</p>
+                    <p class="card-text">r/toyotausa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card bg-dark text-white">
+                    <img src="https://via.placeholder.com/300" class="card-img" alt="placeholder">
+                    <div class="card-img-overlay text-end">
+                    <h5 class="card-title">China</h5>
+                    <p class="card-text">China orders 51 million into lockdown as COVID surges</p>
+                    <p class="card-text">r/news</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card bg-dark text-white">
+                    <img src="https://via.placeholder.com/300" class="card-img" alt="placeholder">
+                    <div class="card-img-overlay text-end">
+                    <h5 class="card-title">Russia</h5>
+                    <p class="card-text">Nato masses 30k troops & 50 warships for huge war</p>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+
+    <p>Popular Posts</p>
+    <!-- Main -->
+    <div class="container-fluid">
+        <div class="row g-3">
+            <div class="col-sm-8"> <!-- Left column -->
+                <!-- Sort Bar -->
+                <ul class="nav sort-bar">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sort
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Hot</a></li>
+                          <li><a class="dropdown-item" href="#">New</a></li>
+                          <li><a class="dropdown-item" href="#">Top</a></li>
+                          <li><a class="dropdown-item" href="#">Rising</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Location
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">United States</a></li>
+                          <li><a class="dropdown-item" href="#">Other Countries, etc</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link">View</a>
+                    </li>
+                  </ul>
+                <div class="left-side">
+                    <p>r/subreddit1</p>
+                    <p>Posted by u/username1234</p>
+                    <span class="badge bg-primary rounded-pill">Join</span>
+                    <h3>Post Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore quaerat odit fugit iste exercitationem, laudantium dolor, quia consequatur corrupti vitae error esse voluptatum aliquid libero nostrum asperiores in quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias libero voluptatibus sapiente quidem magnam soluta, quae assumenda nesciunt tempore ducimus voluptatem veritatis asperiores molestias praesentium quia ullam perspiciatis? Voluptas.</p>
+                </div>
+                <div class="left-side">
+                    <p>r/subreddit1</p>
+                    <p>Posted by u/username1234</p>
+                    <span class="badge bg-primary rounded-pill">Join</span>
+                    <h3>Post Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore quaerat odit fugit iste exercitationem, laudantium dolor, quia consequatur corrupti vitae error esse voluptatum aliquid libero nostrum asperiores in quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias libero voluptatibus sapiente quidem magnam soluta, quae assumenda nesciunt tempore ducimus voluptatem veritatis asperiores molestias praesentium quia ullam perspiciatis? Voluptas.</p>
+                </div>
+                <div class="left-side">
+                    <p>r/subreddit1</p>
+                    <p>Posted by u/username1234</p>
+                    <span class="badge bg-primary rounded-pill">Join</span>
+                    <h3>Post Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore quaerat odit fugit iste exercitationem, laudantium dolor, quia consequatur corrupti vitae error esse voluptatum aliquid libero nostrum asperiores in quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias libero voluptatibus sapiente quidem magnam soluta, quae assumenda nesciunt tempore ducimus voluptatem veritatis asperiores molestias praesentium quia ullam perspiciatis? Voluptas.</p>
+                </div>
+
+            </div>
+            <div class="col-sm-4"> <!-- Right Column-->
+                <div class="right-side">
+                    <h4>Suggested Communities</h4>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">r/subreddit1</div>
+                            Top post for this subreddit
+                          </div>
+                          <span class="badge bg-primary rounded-pill">Join</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">r/subreddit2</div>
+                            Top post for this subreddit
+                          </div>
+                          <span class="badge bg-primary rounded-pill">Join</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">r/subreddit3</div>
+                            Top post for this subreddit
+                          </div>
+                          <span class="badge bg-primary rounded-pill">Join</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                              <div class="fw-bold">r/subreddit4</div>
+                              Top post for this subreddit
+                            </div>
+                            <span class="badge bg-primary rounded-pill">Join</span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                              <div class="fw-bold">r/subreddit5</div>
+                              Top post for this subreddit
+                            </div>
+                            <span class="badge bg-primary rounded-pill">Join</span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                              <div class="fw-bold">r/subreddit6</div>
+                              Top post for this subreddit
+                            </div>
+                            <span class="badge bg-primary rounded-pill">Join</span>
+                          </li>
+                      </ol>
+
+                </div>
+                <div class="right-side text-center">
+                    <p>Ad Placeholder here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
